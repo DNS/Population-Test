@@ -1,5 +1,5 @@
 # 
-# assumption: intelligence increase probability of winning
+# assumption: intelligence increase the probability of winning
 
 import random
 

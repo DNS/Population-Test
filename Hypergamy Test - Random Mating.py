@@ -1,5 +1,5 @@
 
-# Hypergamy Test (brute force algorithm)
+# Hypergamy Test - Random Mating
 
 
 sample_size = 1000
@@ -12,7 +12,7 @@ sample_size = 1000
 #women_status_shift = 0			# gender equal
 #women_status_shift = -0.45		# 16% not married (real life): -0.45
 #women_status_shift = 0.291		# 75% ever divorced (real life) : 0.291
-women_status_shift = .9
+women_status_shift = 1/100		# +1% shift -> 49.05% marriage
 
 
 P = 0	# Probability of men married to a lower status women
@@ -32,7 +32,7 @@ for i in range(0, sample_size):
 for i in range(0, sample_size):
 	for j in range(0, sample_size):
 		n += 1
-		if men[i] > women[j]:
+		if men[i] >= women[j]:
 			c += 1
 
 print('Marriage/Mating occurence =', str(c))

@@ -1,4 +1,4 @@
--- assumption: intelligence increase probability of winning
+-- assumption: intelligence increase the probability of winning
 
 population = 100				-- population
 wealth = 1000					-- total asset
