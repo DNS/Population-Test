@@ -1,3 +1,21 @@
+--[[
+IQ   P (lowest)
+101    0.05
+102    0.15
+103    0.2
+105    0.3
+106    0.35
+110    0.65
+120    0.75
+130    0.8
+138    0.9
+140    0.9
+150    0.9
+
+]]
+
+
+
 -- assumption: intelligence increase the probability of winning
 
 population = 100				-- population
@@ -6,7 +24,7 @@ total_simulation = 9900000		-- total simulation
 bet = 100
 
 population_iq = 100
-prodigy_iq = 120
+prodigy_iq = 102
 
 n = {}
 
